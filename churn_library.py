@@ -13,6 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import plot_roc_curve, classification_report
 
+import os
 import shap
 import joblib
 import pandas as pd
@@ -20,6 +21,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+os.environ['QT_QPA_PLATFORM']='offscreen'
 
 def import_data(data_pth):
     '''returns dataframe for the csv found at data path

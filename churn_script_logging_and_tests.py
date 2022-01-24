@@ -10,6 +10,8 @@ import logging
 import glob
 import churn_library as cls
 
+os.environ['QT_QPA_PLATFORM']='offscreen'
+
 logging.basicConfig(
     filename='./logs/churn_library.log',
     level=logging.INFO,
