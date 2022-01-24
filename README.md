@@ -12,15 +12,26 @@ The data set was obtained from the following link.<br>
 ## Resources
 
 glob<br>
-sklearn<br>
-shap<br>
+sklearn 1.0.2<br>
+shap 0.39.0<br>
 joblib<br>
-pandas<br>
-numpy<br>
-matplotlib<br>
-seaborn<br>
-pylint<br>
-autopep8<br>
+pandas 1.3.0<br>
+numpy 1.20.3<br>
+matplotlib 3.3.4<br>
+seaborn 0.11.1<br>
+pylint 2.7.4<br>
+autopep8 1.5.6<br>
+
+If the version is different, please update the library by referring to the following command.
+
+`
+conda update pandas
+`
+
+or
+`
+pip3 install numpy --upgrade
+`
 ## Files
 
 root<br>
